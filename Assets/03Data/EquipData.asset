@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0831d66a155ec247ac511187a53dc42, type: 3}
+  m_Name: EquipData
+  m_EditorClassIdentifier: 
+  AllEquip:
+  - EquipName: Machete
+    EquipID: 1
+    EquipDes: Increase attack power by 10
+    EquipSprite: {fileID: 21300000, guid: 33677e8c3e439c041b81029dd6952482, type: 3}
+    EquipType: 1
+    AddHealth: 0
+    AddAttack: 10
+    AddSpeed: 0
+    Price: 200
+  - EquipName: Baton
+    EquipID: 2
+    EquipDes: Add 12 attack points and 10 health points
+    EquipSprite: {fileID: 21300000, guid: f52f84506fc3e6f4da25ce4186ef193b, type: 3}
+    EquipType: 1
+    AddHealth: 10
+    AddAttack: 10
+    AddSpeed: 0
+    Price: 150
+  - EquipName: Big knife
+    EquipID: 3
+    EquipDes: Add 15 attack points
+    EquipSprite: {fileID: 21300000, guid: 8bf9306209bb1be40a5ca2b3386e3eef, type: 3}
+    EquipType: 1
+    AddHealth: 0
+    AddAttack: 15
+    AddSpeed: 0
+    Price: 250
+  - EquipName: Nunchucks
+    EquipID: 4
+    EquipDes: Add 17 attack points
+    EquipSprite: {fileID: 21300000, guid: a6a7eb0fa1d82584a8aac7fbaaed6763, type: 3}
+    EquipType: 1
+    AddHealth: 0
+    AddAttack: 17
+    AddSpeed: 0
+    Price: 300
+  - EquipName: Big Sword
+    EquipID: 5
+    EquipDes: Add 20 attack points
+    EquipSprite: {fileID: 21300000, guid: 43f108c279f90574dab9c69e15eb91c3, type: 3}
+    EquipType: 1
+    AddHealth: 0
+    AddAttack: 20
+    AddSpeed: 0
+    Price: 350
+  - EquipName: Flame shoes
+    EquipID: 6
+    EquipDes: Increase the movement speed by 1 point
+    EquipSprite: {fileID: 21300000, guid: 3032f2397393a9044b93f0a2a70138eb, type: 3}
+    EquipType: 2
+    AddHealth: 0
+    AddAttack: 0
+    AddSpeed: 1
+    Price: 200
+  - EquipName: Wizard shoes
+    EquipID: 7
+    EquipDes: Increase the movement speed by 2 points
+    EquipSprite: {fileID: 21300000, guid: 01663d39f7ed316439aab494687a4470, type: 3}
+    EquipType: 2
+    AddHealth: 0
+    AddAttack: 0
+    AddSpeed: 2
+    Price: 300
+  - EquipName: Guard the shoes
+    EquipID: 8
+    EquipDes: Increase movement speed by 2 points and attack by 10 points
+    EquipSprite: {fileID: 21300000, guid: 10d93c47496791d4d96eacb79702db0c, type: 3}
+    EquipType: 2
+    AddHealth: 0
+    AddAttack: 10
+    AddSpeed: 2
+    Price: 400
+  - EquipName: protective suit
+    EquipID: 9
+    EquipDes: Add 30 health points
+    EquipSprite: {fileID: 21300000, guid: c5e303c13c0f5bf4c941a44752357c65, type: 3}
+    EquipType: 0
+    AddHealth: 30
+    AddAttack: 0
+    AddSpeed: 0
+    Price: 300
+  - EquipName: Ninja armor
+    EquipID: 10
+    EquipDes: Add 40 health points
+    EquipSprite: {fileID: 21300000, guid: 82ba637e6a95bc4409f7b8fd7d5bcefa, type: 3}
+    EquipType: 0
+    AddHealth: 40
+    AddAttack: 0
+    AddSpeed: 0
+    Price: 400
+  - EquipName: Fire Pharmacist Armor
+    EquipID: 11
+    EquipDes: Add 45 health points
+    EquipSprite: {fileID: 21300000, guid: b57dabc2957798847bf85fa7cd7603b3, type: 3}
+    EquipType: 0
+    AddHealth: 45
+    AddAttack: 0
+    AddSpeed: 0
+    Price: 450
+  - EquipName: Storm Armor
+    EquipID: 12
+    EquipDes: Add 50 health points
+    EquipSprite: {fileID: 21300000, guid: 82f3529945b2b51429b65b8d52c3b7fc, type: 3}
+    EquipType: 0
+    AddHealth: 50
+    AddAttack: 0
+    AddSpeed: 0
+    Price: 500
